@@ -35,7 +35,7 @@ Fire up your console at the project location and execute:
 
     brutebip38
 
-The application will now utilize all available CPUs to test each secret against your BIP38 encoded private key. Invalid secrets are logged out to [invalid_secrets.json](./invalid_secrets.json). If a valid secret has been found the application will log it out to [valid_secret.json](./valid_secret.json) and abort.
+The application will now utilize all available CPUs to test each secret against your BIP38 encoded private key. Invalid secrets are logged out to [invalid_secrets.json](./invalid_secrets.json). If a valid secret has been found it will be logged out to [valid_secret.json](./valid_secret.json).
 
 License
 -------
