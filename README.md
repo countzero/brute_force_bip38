@@ -15,7 +15,7 @@ Download and install the latest version from:
 
 Clone the *brute-force BIP38* repository to a nice place on your machine via:
 
-    git clone git@github.com:countzero/brute_force_bip38.git
+    git clone https://github.com/stadtwerk/company_communication_core.git
 
 ### Build
 
