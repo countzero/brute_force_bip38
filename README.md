@@ -3,6 +3,8 @@ brute-force BIP38
 
 A brute-force decoder of BIP38 encoded private keys for the CLI.
 
+[![asciicast](https://asciinema.org/a/142270.png)](https://asciinema.org/a/142270?autoplay=1)
+
 ## Installation
 
 ### Install dependencies
