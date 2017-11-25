@@ -31,6 +31,22 @@ Fire up your console at the project location and execute:
 1. Edit the [config.json](./config.json) and paste the `publicAddress` and `encryptedPrivateKey` values of your BIP38 encoded key.
 2. Edit the [secrets.js](./secrets.js) so that it will return an array of all secrets you want to test on your BIP38 encoded key.
 
+Example: You can have all combinations for each position. Let say you password could be "SecrEt!insecure" but you don't know each letter that is capitalize. You can set all possibilities for each position:
+
+positions = [
+        ['s', 'S'], 
+        ['e', 'E','&'],
+        ['c', 'c'],
+        ['r', 'R'],
+        ['e', 'E'],
+        ['t', 't'],
+        ['1','!',''],
+        ['_','',' '],
+        ['insecure']      
+    ];
+3 - Edit the [secrets.js] to hide all log secrets combinations. Set logSecrets to false, default is true. 
+
+
 ## Start
 
 Fire up your console at the project location and execute:
